@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card my-5 d-flex align-items-center p-4">
+            <h1 class="display-4 py-2">Pokedex</h1>
+            <div>
+                <label>Enter a Pokemon:</label>
+                <input id="pokemonSearch" type="text">
+                <input type="button" value="Submit" class="btn btn-warning" onclick="submitHandler(event)"  >
+            </div>
+
+            <div id="errorDiv"></div>
+
+            <div id="infoContainer" class="mt-3 container d-flex justify-content-between row">
+                <div id="spriteDiv" class="col"></div>
+
+                <div id="abilityDiv" class="col">
+    
+                </div>
+                <div id="detailsDiv" class="col">
+    
+                </div>
+            </div>
+
+            <div id="movesDiv">
+                
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
